@@ -1,3 +1,14 @@
+# FORK
+
+This repository is a fork of https://github.com/renatav/GraphDrawing
+
+The code at the original repository did not compile because there were three inter-dependent projects structured as three independent sub-folders.
+A different attempt at fixing this was done in https://github.com/fernandogodoy/GraphDrawing, but it caused a different subset of problems when
+distributing applications (namely, the parent jar was missing).
+
+This repository is optimized for distribution: A simple "GraphDrawingMonoproject" project, which can be built into a single jar with all 
+dependencies included.
+
 # Graph Analysis and Drawing Library - Grad
 
 Site: http://www.gradlibrary.net
